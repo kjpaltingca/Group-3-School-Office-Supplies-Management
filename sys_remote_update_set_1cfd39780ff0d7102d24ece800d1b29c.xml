@@ -1,0 +1,1410 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-11-24 09:16:16">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<application_name>School Office Supplies Management</application_name>
+<application_scope>x_2322917_school_0</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>A system for managing school office supplies, inventory, and orders</description>
+<inserted/>
+<name>School Office Supplies Management</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>89ad79380ff0d7102d24ece800d1b287</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:14</sys_created_on>
+<sys_id>1cfd39780ff0d7102d24ece800d1b29c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:14</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_2322917_school_0_items_image_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="image" label="Image" language="en" table="x_2322917_school_0_items"><sys_documentation action="INSERT_OR_UPDATE"><element>image</element><help/><hint/><label>Image</label><language>en</language><name>x_2322917_school_0_items</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 23:24:14</sys_created_on><sys_id>987673280f3497102d24ece800d1b2f5</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Image</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_documentation_x_2322917_school_0_items_image_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 23:24:16</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1246068562</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>20fd39780ff0d7102d24ece800d1b2a1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd642410000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>Items.Image</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>8176f328bd349710bc4d2facba04f15f</update_guid>
+<update_guid_history>8176f328bd349710bc4d2facba04f15f:1246068562,a076b32884349710bc6ec90b64f3b471:-1885483216</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_34a967f30f6c13102d24ece800d1b247</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Allow read for records in x_2322917_school_0_items, for users with role x_2322917_school_0.sales.</description><local_or_existing>Existing</local_or_existing><name>x_2322917_school_0_items</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:51</sys_created_on><sys_id>34a967f30f6c13102d24ece800d1b247</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_2322917_school_0_items</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_security_acl_34a967f30f6c13102d24ece800d1b247</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:51</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-199200102</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>20fd39780ff0d7102d24ece800d1b2a6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd640d20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>x_2322917_school_0_items</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>c1a967f36d6c1310247c10f16caf0e4c</update_guid>
+<update_guid_history>c1a967f36d6c1310247c10f16caf0e4c:2142780177</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_89a967f30f6c13102d24ece800d1b23d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:51</sys_created_on><sys_id>89a967f30f6c13102d24ece800d1b23d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2322917_school_0_items.x_2322917_school_0.admin</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_security_acl display_value="x_2322917_school_0_items">f0a967f30f6c13102d24ece800d1b209</sys_security_acl><sys_update_name>sys_security_acl_role_89a967f30f6c13102d24ece800d1b23d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:51</sys_updated_on><sys_user_role display_value="x_2322917_school_0.admin" name="x_2322917_school_0.admin">2ae82f730f6c13102d24ece800d1b29b</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1453820942</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>20fd3d3c0ff0d7102d24ece800d1b2e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd640f60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>x_2322917_school_0_items.x_2322917_school_0.admin</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>c9a9a7f3e56c13105ba809df240faa0c</update_guid>
+<update_guid_history>c9a9a7f3e56c13105ba809df240faa0c:1453820942</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_2322917_school_0_items_short_description_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="short_description" label="Short Description" language="en" table="x_2322917_school_0_items"><sys_documentation action="INSERT_OR_UPDATE"><element>short_description</element><help/><hint/><label>Short Description</label><language>en</language><name>x_2322917_school_0_items</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 23:24:14</sys_created_on><sys_id>5c76b3280f3497102d24ece800d1b207</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Short Description</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_documentation_x_2322917_school_0_items_short_description_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 23:24:16</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1255713445</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>24fd39780ff0d7102d24ece800d1b2a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd642370000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>Items.Short Description</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>b076f328e8349710f475dbe11ed04100</update_guid>
+<update_guid_history>b076f328e8349710f475dbe11ed04100:1255713445,2076b3280934971084d36b57765bd36b:-780692986</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_55a9a7f30f6c13102d24ece800d1b260</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Allow write for records in x_2322917_school_0_items, for users with role x_2322917_school_0.admin.</description><local_or_existing>Existing</local_or_existing><name>x_2322917_school_0_items</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:52</sys_created_on><sys_id>55a9a7f30f6c13102d24ece800d1b260</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_2322917_school_0_items</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_security_acl_55a9a7f30f6c13102d24ece800d1b260</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:53</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>2081714712</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>24fd3d3c0ff0d7102d24ece800d1b2e1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd6417f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>x_2322917_school_0_items</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>9da9a7f3bb6c1310a9f462579200cb64</update_guid>
+<update_guid_history>9da9a7f3bb6c1310a9f462579200cb64:1804945621</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_x_2322917_school_0_items_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_2322917_school_0_items" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_created_on</element><list_id display_value="x_2322917_school_0_items" element="NULL" name="x_2322917_school_0_items" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">18a96fbf0f2c13102d24ece800d1b276</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:48</sys_created_on><sys_id>18a96fbf0f2c13102d24ece800d1b27a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:48</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_created_by</element><list_id display_value="x_2322917_school_0_items" element="NULL" name="x_2322917_school_0_items" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">18a96fbf0f2c13102d24ece800d1b276</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:48</sys_created_on><sys_id>54a96fbf0f2c13102d24ece800d1b27b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:48</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_updated_on</element><list_id display_value="x_2322917_school_0_items" element="NULL" name="x_2322917_school_0_items" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">18a96fbf0f2c13102d24ece800d1b276</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:48</sys_created_on><sys_id>18a96fbf0f2c13102d24ece800d1b27b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:48</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_updated_by</element><list_id display_value="x_2322917_school_0_items" element="NULL" name="x_2322917_school_0_items" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">18a96fbf0f2c13102d24ece800d1b276</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:48</sys_created_on><sys_id>d8a96fbf0f2c13102d24ece800d1b27b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:48</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_mod_count</element><list_id display_value="x_2322917_school_0_items" element="NULL" name="x_2322917_school_0_items" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">18a96fbf0f2c13102d24ece800d1b276</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:48</sys_created_on><sys_id>9ca96fbf0f2c13102d24ece800d1b27b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:48</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_2322917_school_0_items</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>18a96fbf0f2c13102d24ece800d1b276</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2322917_school_0_items</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_ui_list_x_2322917_school_0_items_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:48</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<payload_hash>1752284873</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>24fd3d3c0ff0d7102d24ece800d1b2e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd640600000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>Items</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_2322917_school_0_items_category</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="category" table="x_2322917_school_0_items"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Category</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>category</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_2322917_school_0_items</name><next_element/><primary>false</primary><read_only>false</read_only><read_only_option/><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 23:24:14</sys_created_on><sys_id>1c7673280f3497102d24ece800d1b2fe</sys_id><sys_name>Category</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_dictionary_x_2322917_school_0_items_category</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 23:24:15</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1127479334</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>28fd39780ff0d7102d24ece800d1b29e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd642040000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>Items.Category</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>bc76b3289d3497105b32f36d624773be</update_guid>
+<update_guid_history>bc76b3289d3497105b32f36d624773be:1127479334,6c76b32841349710b52265dabe5b6943:1005911971</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_embedded_help_role_a2e82f730f6c13102d24ece800d1b295</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role"><sys_embedded_help_role action="INSERT_OR_UPDATE"><order>1000</order><role display_value="x_2322917_school_0.customer" name="x_2322917_school_0.customer">6ae82f730f6c13102d24ece800d1b292</role><sys_class_name>sys_embedded_help_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:29:41</sys_created_on><sys_id>a2e82f730f6c13102d24ece800d1b295</sys_id><sys_mod_count>0</sys_mod_count><sys_name>6ae82f730f6c13102d24ece800d1b292</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_embedded_help_role_a2e82f730f6c13102d24ece800d1b295</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:29:41</sys_updated_on></sys_embedded_help_role></record_update>]]></payload>
+<payload_hash>1399858840</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>28fd39780ff0d7102d24ece800d1b2a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd63fc70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table/>
+<target_name>6ae82f730f6c13102d24ece800d1b292</target_name>
+<type>Embedded Help Role Priority</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_f0a967f30f6c13102d24ece800d1b209</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Allow create for records in x_2322917_school_0_items, for users with role x_2322917_school_0.admin.</description><local_or_existing>Existing</local_or_existing><name>x_2322917_school_0_items</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:50</sys_created_on><sys_id>f0a967f30f6c13102d24ece800d1b209</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_2322917_school_0_items</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_security_acl_f0a967f30f6c13102d24ece800d1b209</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:51</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1076879735</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>28fd3d3c0ff0d7102d24ece800d1b2e2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd6410f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>x_2322917_school_0_items</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>41a967f3f26c1310094cea4556c9ae39</update_guid>
+<update_guid_history>41a967f3f26c1310094cea4556c9ae39:1926220869</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_62e82f730f6c13102d24ece800d1b2bd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>Default user role</description><elevated_privilege>false</elevated_privilege><federated_id>3G6YNvlOCMVZ8rJi91GZ8ADDWWf5kfpGo7L0fJxP+ww=</federated_id><grantable>true</grantable><includes_roles/><name>x_2322917_school_0.user</name><scoped_admin>false</scoped_admin><suffix>user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:29:41</sys_created_on><sys_id>62e82f730f6c13102d24ece800d1b2bd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2322917_school_0.user</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_user_role_62e82f730f6c13102d24ece800d1b2bd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:29:41</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>256888179</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>28fd3d3c0ff0d7102d24ece800d1b2e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd63f9c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table/>
+<target_name>x_2322917_school_0.user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>2ae82f73656c13105bb3e48ff2d22bc1</update_guid>
+<update_guid_history>2ae82f73656c13105bb3e48ff2d22bc1:1726879875</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_2322917_school_0_items_price</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="price" table="x_2322917_school_0_items"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Price </column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>price</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Currency">currency</internal_type><mandatory>false</mandatory><max_length>20</max_length><name>x_2322917_school_0_items</name><next_element/><primary>false</primary><read_only>false</read_only><read_only_option/><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 23:24:14</sys_created_on><sys_id>e076b3280f3497102d24ece800d1b210</sys_id><sys_name>Price </sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_dictionary_x_2322917_school_0_items_price</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 23:24:15</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>457440086</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>2cfd39780ff0d7102d24ece800d1b29f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd642210000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>Items.Price </target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>b876b328093497106e9e3236e9c0dadb</update_guid>
+<update_guid_history>b876b328093497106e9e3236e9c0dadb:457440086,a476b328d434971073d31f38b0308e47:1372293483</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_c307ef880f7893102d24ece800d1b2d5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Enable MariaDB INSTANT ALTER algorithms on the Now Platform</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>glide.db.instant_alter.enabled</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-22 09:00:00</sys_created_on><sys_id>c307ef880f7893102d24ece800d1b2d5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>glide.db.instant_alter.enabled</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_properties_c307ef880f7893102d24ece800d1b2d5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-22 09:00:00</sys_updated_on><type>boolean</type><value>true</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=c307ef880f7893102d24ece800d1b2d5"/></record_update>]]></payload>
+<payload_hash>-813967685</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>2cfd39780ff0d7102d24ece800d1b2a4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd641cb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table/>
+<target_name>glide.db.instant_alter.enabled</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>551723c8037893103029a3f13edd8a7a</update_guid>
+<update_guid_history>551723c8037893103029a3f13edd8a7a:-813967685</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_19a9a7f30f6c13102d24ece800d1b203</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:52</sys_created_on><sys_id>19a9a7f30f6c13102d24ece800d1b203</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2322917_school_0_items.x_2322917_school_0.manager</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_security_acl display_value="x_2322917_school_0_items">41a967f30f6c13102d24ece800d1b2d5</sys_security_acl><sys_update_name>sys_security_acl_role_19a9a7f30f6c13102d24ece800d1b203</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:52</sys_updated_on><sys_user_role display_value="x_2322917_school_0.manager" name="x_2322917_school_0.manager">aae82f730f6c13102d24ece800d1b289</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1561962234</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>2cfd3d3c0ff0d7102d24ece800d1b2e3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd641450000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>x_2322917_school_0_items.x_2322917_school_0.manager</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>15a9a7f3586c1310d2ec93345f843756</update_guid>
+<update_guid_history>15a9a7f3586c1310d2ec93345f843756:1561962234</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_2322917_school_0_items_quantity</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="quantity" table="x_2322917_school_0_items"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Quantity</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>quantity</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Integer">integer</internal_type><mandatory>false</mandatory><max_length>255</max_length><name>x_2322917_school_0_items</name><next_element/><primary>false</primary><read_only>false</read_only><read_only_option/><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 23:24:14</sys_created_on><sys_id>dc7673280f3497102d24ece800d1b2f8</sys_id><sys_name>Quantity</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_dictionary_x_2322917_school_0_items_quantity</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 23:24:14</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-909016010</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>60fd39780ff0d7102d24ece800d1b2a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd641e00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>Items.Quantity</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>a876b3284c34971096def503e469363e</update_guid>
+<update_guid_history>a876b3284c34971096def503e469363e:-909016010</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_0da967f30f6c13102d24ece800d1b2a7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Allow read for records in x_2322917_school_0_items, for users with role x_2322917_school_0.user.</description><local_or_existing>Existing</local_or_existing><name>x_2322917_school_0_items</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:51</sys_created_on><sys_id>0da967f30f6c13102d24ece800d1b2a7</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_2322917_school_0_items</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_security_acl_0da967f30f6c13102d24ece800d1b2a7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:51</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-152405681</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>60fd39780ff0d7102d24ece800d1b2a5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd640b10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>x_2322917_school_0_items</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>09a967f3b86c13101fb24ef2daad4eac</update_guid>
+<update_guid_history>09a967f3b86c13101fb24ef2daad4eac:2142780177</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_4da967f30f6c13102d24ece800d1b29d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:51</sys_created_on><sys_id>4da967f30f6c13102d24ece800d1b29d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2322917_school_0_items.x_2322917_school_0.sales</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_security_acl display_value="x_2322917_school_0_items">34a967f30f6c13102d24ece800d1b247</sys_security_acl><sys_update_name>sys_security_acl_role_4da967f30f6c13102d24ece800d1b29d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:51</sys_updated_on><sys_user_role display_value="x_2322917_school_0.sales" name="x_2322917_school_0.sales">62e82f730f6c13102d24ece800d1b27a</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-149985976</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>60fd3d3c0ff0d7102d24ece800d1b2e4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd640de0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>x_2322917_school_0_items.x_2322917_school_0.sales</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>01a967f39b6c1310f37490644a6b61e5</update_guid>
+<update_guid_history>01a967f39b6c1310f37490644a6b61e5:-149985976</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_2322917_school_0_items_item_name_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="item_name" label="Item Name" language="en" table="x_2322917_school_0_items"><sys_documentation action="INSERT_OR_UPDATE"><element>item_name</element><help/><hint/><label>Item Name</label><language>en</language><name>x_2322917_school_0_items</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 23:24:14</sys_created_on><sys_id>a876b3280f3497102d24ece800d1b20d</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Item Name</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_documentation_x_2322917_school_0_items_item_name_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 23:24:16</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1127523905</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>64fd39780ff0d7102d24ece800d1b2a1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd642af0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>Items.Item Name</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>8976f328793497106f4319fcb212cf35</update_guid>
+<update_guid_history>8976f328793497106f4319fcb212cf35:1127523905,6076b32830349710e925c8074f9a4f6e:843804738</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_41a967f30f6c13102d24ece800d1b2d5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Allow read for records in x_2322917_school_0_items, for users with role x_2322917_school_0.manager.</description><local_or_existing>Existing</local_or_existing><name>x_2322917_school_0_items</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:51</sys_created_on><sys_id>41a967f30f6c13102d24ece800d1b2d5</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_2322917_school_0_items</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_security_acl_41a967f30f6c13102d24ece800d1b2d5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:52</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1756453307</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>64fd39780ff0d7102d24ece800d1b2a6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd641520000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>x_2322917_school_0_items</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>cda967f33b6c1310c11cbfac302a81fe</update_guid>
+<update_guid_history>cda967f33b6c1310c11cbfac302a81fe:2142780177</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_c1a967f30f6c13102d24ece800d1b271</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:51</sys_created_on><sys_id>c1a967f30f6c13102d24ece800d1b271</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2322917_school_0_items.x_2322917_school_0.customer</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_security_acl display_value="x_2322917_school_0_items">7ca967f30f6c13102d24ece800d1b266</sys_security_acl><sys_update_name>sys_security_acl_role_c1a967f30f6c13102d24ece800d1b271</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:51</sys_updated_on><sys_user_role display_value="x_2322917_school_0.customer" name="x_2322917_school_0.customer">6ae82f730f6c13102d24ece800d1b292</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>2116017374</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>64fd3d3c0ff0d7102d24ece800d1b2e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd641030000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>x_2322917_school_0_items.x_2322917_school_0.customer</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>85a967f3036c13109997b50a632f21c5</update_guid>
+<update_guid_history>85a967f3036c13109997b50a632f21c5:2116017374</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_2322917_school_0_items__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Items" language="en" table="x_2322917_school_0_items"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Items</label><language>en</language><name>x_2322917_school_0_items</name><plural>Items</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:46</sys_created_on><sys_id>7799a3f30f6c13102d24ece800d1b235</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Items</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_documentation_x_2322917_school_0_items__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:46</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>736904151</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>68fd39780ff0d7102d24ece800d1b2a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd6400a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>Items</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_59a9a7f30f6c13102d24ece800d1b2db</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Allow delete for records in x_2322917_school_0_items, for users with role x_2322917_school_0.manager.</description><local_or_existing>Existing</local_or_existing><name>x_2322917_school_0_items</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:52</sys_created_on><sys_id>59a9a7f30f6c13102d24ece800d1b2db</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_2322917_school_0_items</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_security_acl_59a9a7f30f6c13102d24ece800d1b2db</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:53</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-624133658</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>68fd3d3c0ff0d7102d24ece800d1b2e1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd641930000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>x_2322917_school_0_items</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>91a9a7f3286c1310a739e37054b7d7e0</update_guid>
+<update_guid_history>91a9a7f3286c1310a739e37054b7d7e0:-1777448153</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_98a9a3f30f6c13102d24ece800d1b2a5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="98a9a3f30f6c13102d24ece800d1b2a5" sys_domain="global" table="x_2322917_school_0_items" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>image</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 23:26:05</sys_created_on><sys_id>afd6ff280f3497102d24ece800d1b2d7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_2322917_school_0_items" sys_domain="global" view="Default view">98a9a3f30f6c13102d24ece800d1b2a5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 23:26:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>item_name</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 23:26:05</sys_created_on><sys_id>6bd6ff280f3497102d24ece800d1b2d8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_2322917_school_0_items" sys_domain="global" view="Default view">98a9a3f30f6c13102d24ece800d1b2a5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 23:26:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>short_description</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 23:26:05</sys_created_on><sys_id>27d6ff280f3497102d24ece800d1b2d9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_2322917_school_0_items" sys_domain="global" view="Default view">98a9a3f30f6c13102d24ece800d1b2a5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 23:26:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 23:26:05</sys_created_on><sys_id>efd6ff280f3497102d24ece800d1b2d9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_2322917_school_0_items" sys_domain="global" view="Default view">98a9a3f30f6c13102d24ece800d1b2a5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 23:26:05</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>price</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 23:26:05</sys_created_on><sys_id>abd6ff280f3497102d24ece800d1b2da</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_2322917_school_0_items" sys_domain="global" view="Default view">98a9a3f30f6c13102d24ece800d1b2a5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 23:26:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>category</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 23:26:05</sys_created_on><sys_id>67d6ff280f3497102d24ece800d1b2db</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_2322917_school_0_items" sys_domain="global" view="Default view">98a9a3f30f6c13102d24ece800d1b2a5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 23:26:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>quantity</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 23:26:05</sys_created_on><sys_id>23d6ff280f3497102d24ece800d1b2dc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_2322917_school_0_items" sys_domain="global" view="Default view">98a9a3f30f6c13102d24ece800d1b2a5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 23:26:05</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_2322917_school_0_items</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>98a9a3f30f6c13102d24ece800d1b2a5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2322917_school_0_items</sys_name><sys_overrides/><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_ui_section_98a9a3f30f6c13102d24ece800d1b2a5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:48</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-1576609096</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>68fd3d3c0ff0d7102d24ece800d1b2e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd640840000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>Items</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>e3d6ff28e6349710b525e969235132df</update_guid>
+<update_guid_history>e3d6ff28e6349710b525e969235132df:-1576609096,0d76f328b3349710defda271b45fea76:-1591670874,1ca9a3f3be6c1310a6f2cecc8116b1ac:-300161844</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_2322917_school_0_items_image</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="image" table="x_2322917_school_0_items"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Image</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>image</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="">user_image</internal_type><mandatory>false</mandatory><max_length>255</max_length><name>x_2322917_school_0_items</name><next_element/><primary>false</primary><read_only>false</read_only><read_only_option/><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 23:24:14</sys_created_on><sys_id>d07673280f3497102d24ece800d1b265</sys_id><sys_name>Image</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_dictionary_x_2322917_school_0_items_image</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 23:24:16</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1502307563</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>6cfd39780ff0d7102d24ece800d1b29e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd642c70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>Items.Image</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>0576f328ee349710dd220872f1989457</update_guid>
+<update_guid_history>0576f328ee349710dd220872f1989457:-1502307563,6c76b32873349710852056c42de11b51:-208270176</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_embedded_help_role_aae82f730f6c13102d24ece800d1b2bf</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role"><sys_embedded_help_role action="INSERT_OR_UPDATE"><order>1000</order><role display_value="x_2322917_school_0.user" name="x_2322917_school_0.user">62e82f730f6c13102d24ece800d1b2bd</role><sys_class_name>sys_embedded_help_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:29:41</sys_created_on><sys_id>aae82f730f6c13102d24ece800d1b2bf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>62e82f730f6c13102d24ece800d1b2bd</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_embedded_help_role_aae82f730f6c13102d24ece800d1b2bf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:29:41</sys_updated_on></sys_embedded_help_role></record_update>]]></payload>
+<payload_hash>-162696724</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>6cfd39780ff0d7102d24ece800d1b2a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd63fe00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table/>
+<target_name>62e82f730f6c13102d24ece800d1b2bd</target_name>
+<type>Embedded Help Role Priority</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_01a967f30f6c13102d24ece800d1b2cb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:51</sys_created_on><sys_id>01a967f30f6c13102d24ece800d1b2cb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2322917_school_0_items.x_2322917_school_0.manager</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_security_acl display_value="x_2322917_school_0_items">34a927f30f6c13102d24ece800d1b2d0</sys_security_acl><sys_update_name>sys_security_acl_role_01a967f30f6c13102d24ece800d1b2cb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:51</sys_updated_on><sys_user_role display_value="x_2322917_school_0.manager" name="x_2322917_school_0.manager">aae82f730f6c13102d24ece800d1b289</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>8285751</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>6cfd3d3c0ff0d7102d24ece800d1b2e2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd640910000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>x_2322917_school_0_items.x_2322917_school_0.manager</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>41a967f38f6c1310eb33ec8e3358d3d3</update_guid>
+<update_guid_history>41a967f38f6c1310eb33ec8e3358d3d3:8285751</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_6ae82f730f6c13102d24ece800d1b292</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>Browses and orders school supplies</description><elevated_privilege>false</elevated_privilege><federated_id>NP8KFWw1Ax/IYwquyMsmxvteeqEw7fkrjJ3ypyJsxI0=</federated_id><grantable>true</grantable><includes_roles/><name>x_2322917_school_0.customer</name><scoped_admin>false</scoped_admin><suffix>customer</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:29:41</sys_created_on><sys_id>6ae82f730f6c13102d24ece800d1b292</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2322917_school_0.customer</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_user_role_6ae82f730f6c13102d24ece800d1b292</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:29:41</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>-1985794096</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>6cfd3d3c0ff0d7102d24ece800d1b2e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd63fa60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table/>
+<target_name>x_2322917_school_0.customer</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>22e82f730f6c13105b5689b292651497</update_guid>
+<update_guid_history>22e82f730f6c13105b5689b292651497:391708382</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_2322917_school_0_items_item_name</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="item_name" table="x_2322917_school_0_items"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Item Name</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>item_name</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_2322917_school_0_items</name><next_element/><primary>false</primary><read_only>false</read_only><read_only_option/><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 23:24:14</sys_created_on><sys_id>a476b3280f3497102d24ece800d1b20a</sys_id><sys_name>Item Name</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_dictionary_x_2322917_school_0_items_item_name</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 23:24:16</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>805985158</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>a0fd39780ff0d7102d24ece800d1b29f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd6424d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>Items.Item Name</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>0d76f32833349710081a70e120d06b2d</update_guid>
+<update_guid_history>0d76f32833349710081a70e120d06b2d:805985158,2476b328e734971082f278c5a20e3a4e:-1468503575</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_embedded_help_role_e2e82f730f6c13102d24ece800d1b28c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role"><sys_embedded_help_role action="INSERT_OR_UPDATE"><order>100</order><role display_value="x_2322917_school_0.manager" name="x_2322917_school_0.manager">aae82f730f6c13102d24ece800d1b289</role><sys_class_name>sys_embedded_help_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:29:41</sys_created_on><sys_id>e2e82f730f6c13102d24ece800d1b28c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>aae82f730f6c13102d24ece800d1b289</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_embedded_help_role_e2e82f730f6c13102d24ece800d1b28c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:29:41</sys_updated_on></sys_embedded_help_role></record_update>]]></payload>
+<payload_hash>-1635878282</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>a0fd39780ff0d7102d24ece800d1b2a4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd63ff90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table/>
+<target_name>aae82f730f6c13102d24ece800d1b289</target_name>
+<type>Embedded Help Role Priority</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_01a9a7f30f6c13102d24ece800d1b221</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:51</sys_created_on><sys_id>01a9a7f30f6c13102d24ece800d1b221</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2322917_school_0_items.x_2322917_school_0.user</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_security_acl display_value="x_2322917_school_0_items">0da967f30f6c13102d24ece800d1b2a7</sys_security_acl><sys_update_name>sys_security_acl_role_01a9a7f30f6c13102d24ece800d1b221</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:51</sys_updated_on><sys_user_role display_value="x_2322917_school_0.user" name="x_2322917_school_0.user">62e82f730f6c13102d24ece800d1b2bd</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>35338381</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>a0fd3d3c0ff0d7102d24ece800d1b2e3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd6409d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>x_2322917_school_0_items.x_2322917_school_0.user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>41a9a7f3236c13109aca893eccf4cb29</update_guid>
+<update_guid_history>41a9a7f3236c13109aca893eccf4cb29:35338381</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_aae82f730f6c13102d24ece800d1b289</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>Manages sales and oversees inventory</description><elevated_privilege>false</elevated_privilege><federated_id>smlBT7pZpZt/tpMNHiJnvqqxWDtC7Bz0EgcTkpmh5+c=</federated_id><grantable>true</grantable><includes_roles/><name>x_2322917_school_0.manager</name><scoped_admin>false</scoped_admin><suffix>manager</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:29:41</sys_created_on><sys_id>aae82f730f6c13102d24ece800d1b289</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2322917_school_0.manager</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_user_role_aae82f730f6c13102d24ece800d1b289</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:29:41</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>-1143031926</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>a0fd3d3c0ff0d7102d24ece800d1b2e8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd63fd40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table/>
+<target_name>x_2322917_school_0.manager</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>62e82f733e6c13109b4dc0126cc82f8e</update_guid>
+<update_guid_history>62e82f733e6c13109b4dc0126cc82f8e:-3410552</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_2322917_school_0_items_short_description</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="short_description" table="x_2322917_school_0_items"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Short Description</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>short_description</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_2322917_school_0_items</name><next_element/><primary>false</primary><read_only>false</read_only><read_only_option/><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 23:24:14</sys_created_on><sys_id>5876b3280f3497102d24ece800d1b204</sys_id><sys_name>Short Description</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_dictionary_x_2322917_school_0_items_short_description</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 23:24:16</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1412610750</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>a4fd39780ff0d7102d24ece800d1b2a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd6422d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>Items.Short Description</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>3476b328c3349710345b7491124a89f8</update_guid>
+<update_guid_history>3476b328c3349710345b7491124a89f8:-1412610750,6c76b3287c3497104ae9e50de1b1ee4a:-518224731</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_15a9a7f30f6c13102d24ece800d1b258</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Allow write for records in x_2322917_school_0_items, for users with role x_2322917_school_0.manager.</description><local_or_existing>Existing</local_or_existing><name>x_2322917_school_0_items</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:52</sys_created_on><sys_id>15a9a7f30f6c13102d24ece800d1b258</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_2322917_school_0_items</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_security_acl_15a9a7f30f6c13102d24ece800d1b258</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:52</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>2036322422</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>a4fd39780ff0d7102d24ece800d1b2a5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd641320000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>x_2322917_school_0_items</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>5da9a7f3a66c1310799a2e1bdf94dd5c</update_guid>
+<update_guid_history>5da9a7f3a66c1310799a2e1bdf94dd5c:1804945621</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_5da9a7f30f6c13102d24ece800d1b26d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:52</sys_created_on><sys_id>5da9a7f30f6c13102d24ece800d1b26d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2322917_school_0_items.x_2322917_school_0.manager</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_security_acl display_value="x_2322917_school_0_items">15a9a7f30f6c13102d24ece800d1b258</sys_security_acl><sys_update_name>sys_security_acl_role_5da9a7f30f6c13102d24ece800d1b26d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:52</sys_updated_on><sys_user_role display_value="x_2322917_school_0.manager" name="x_2322917_school_0.manager">aae82f730f6c13102d24ece800d1b289</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-808722804</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>a4fd3d3c0ff0d7102d24ece800d1b2e4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd641680000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>x_2322917_school_0_items.x_2322917_school_0.manager</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>dda9a7f3266c131057227bd3ce082475</update_guid>
+<update_guid_history>dda9a7f3266c131057227bd3ce082475:-808722804</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_2322917_school_0_items_price_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="price" label="Price " language="en" table="x_2322917_school_0_items"><sys_documentation action="INSERT_OR_UPDATE"><element>price</element><help/><hint/><label>Price </label><language>en</language><name>x_2322917_school_0_items</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 23:24:14</sys_created_on><sys_id>e476b3280f3497102d24ece800d1b213</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Price </sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_documentation_x_2322917_school_0_items_price_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 23:24:16</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-486941668</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>a8fd39780ff0d7102d24ece800d1b2a1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd642d40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>Items.Price </target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>3876b328aa34971068a02f75a6fd79e3</update_guid>
+<update_guid_history>3876b328aa34971068a02f75a6fd79e3:-486941668,ec76b328013497106c6813f8c407f767:-291961742</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_d5a9a7f30f6c13102d24ece800d1b269</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:52</sys_created_on><sys_id>d5a9a7f30f6c13102d24ece800d1b269</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2322917_school_0_items.x_2322917_school_0.admin</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_security_acl display_value="x_2322917_school_0_items">55a9a7f30f6c13102d24ece800d1b260</sys_security_acl><sys_update_name>sys_security_acl_role_d5a9a7f30f6c13102d24ece800d1b269</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:52</sys_updated_on><sys_user_role display_value="x_2322917_school_0.admin" name="x_2322917_school_0.admin">2ae82f730f6c13102d24ece800d1b29b</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1760519506</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>a8fd3d3c0ff0d7102d24ece800d1b2e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd641740000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>x_2322917_school_0_items.x_2322917_school_0.admin</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>dda9a7f3816c131034a88e707eac82ed</update_guid>
+<update_guid_history>dda9a7f3816c131034a88e707eac82ed:1760519506</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_embedded_help_role_2ee82f730f6c13102d24ece800d1b280</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role"><sys_embedded_help_role action="INSERT_OR_UPDATE"><order>1000</order><role display_value="x_2322917_school_0.sales" name="x_2322917_school_0.sales">62e82f730f6c13102d24ece800d1b27a</role><sys_class_name>sys_embedded_help_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:29:40</sys_created_on><sys_id>2ee82f730f6c13102d24ece800d1b280</sys_id><sys_mod_count>0</sys_mod_count><sys_name>62e82f730f6c13102d24ece800d1b27a</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_embedded_help_role_2ee82f730f6c13102d24ece800d1b280</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:29:40</sys_updated_on></sys_embedded_help_role></record_update>]]></payload>
+<payload_hash>1318986094</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>acfd39780ff0d7102d24ece800d1b2a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd63f6e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table/>
+<target_name>62e82f730f6c13102d24ece800d1b27a</target_name>
+<type>Embedded Help Role Priority</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_7ca967f30f6c13102d24ece800d1b266</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Allow read for records in x_2322917_school_0_items, for users with role x_2322917_school_0.customer.</description><local_or_existing>Existing</local_or_existing><name>x_2322917_school_0_items</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:51</sys_created_on><sys_id>7ca967f30f6c13102d24ece800d1b266</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_2322917_school_0_items</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_security_acl_7ca967f30f6c13102d24ece800d1b266</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:51</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1995696418</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>acfd3d3c0ff0d7102d24ece800d1b2e1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd640ea0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>x_2322917_school_0_items</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>89a967f3e26c1310578961450d25606b</update_guid>
+<update_guid_history>89a967f3e26c1310578961450d25606b:2142780177</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_2ae82f730f6c13102d24ece800d1b29b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>Default admin role</description><elevated_privilege>false</elevated_privilege><federated_id>oW9MSQAfeIS69MW4v7HWdnrDAuUdNaky9eZqgMymX4o=</federated_id><grantable>true</grantable><includes_roles/><name>x_2322917_school_0.admin</name><scoped_admin>false</scoped_admin><suffix>admin</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:29:41</sys_created_on><sys_id>2ae82f730f6c13102d24ece800d1b29b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2322917_school_0.admin</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_user_role_2ae82f730f6c13102d24ece800d1b29b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:29:41</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>1325644701</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>acfd3d3c0ff0d7102d24ece800d1b2e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd63f920000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table/>
+<target_name>x_2322917_school_0.admin</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>6ae82f73606c13101b1d74ed704776b8</update_guid>
+<update_guid_history>6ae82f73606c13101b1d74ed704776b8:-1831539165</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_1ee82f730f6c13102d24ece800d1b24b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><application_runtime_policy>none</application_runtime_policy><can_edit_in_studio>true</can_edit_in_studio><enforce_license>none</enforce_license><guided_setup_guid/><hide_on_ui>false</hide_on_ui><ide_created>AES</ide_created><installed_as_dependency>false</installed_as_dependency><js_level>es_latest</js_level><licensable>true</licensable><license/><license_category>none</license_category><license_definition/><license_model>none</license_model><logo/><menu/><name>School Office Supplies Management</name><package_json/><package_resolver_version>1.0.0</package_resolver_version><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>x_2322917_school_0</scope><scoped_administration>false</scoped_administration><short_description>A system for managing school office supplies, inventory, and orders</short_description><sn_managed>false</sn_managed><source>x_2322917_school_0</source><store_correlation_id/><store_url/><subscription_entitlement/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:29:40</sys_created_on><sys_id>1ee82f730f6c13102d24ece800d1b24b</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:29:40</sys_updated_on><template/><trackable>true</trackable><uninstall_blocked>false</uninstall_blocked><user_role/><vendor/><vendor_prefix/><version>1.0.0</version></sys_app><sys_translated_text action="delete_multiple" query="documentkey=1ee82f730f6c13102d24ece800d1b24b"/></record_update>]]></payload>
+<payload_hash>-239417344</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:14</sys_created_on>
+<sys_id>d0fd39780ff0d7102d24ece800d1b29d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd63f4b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:14</sys_updated_on>
+<table/>
+<target_name>School Office Supplies Management</target_name>
+<type>Custom Application</type>
+<update_domain>global</update_domain>
+<update_guid>eee82f73f86c1310b7a1d1f7e36d6d68</update_guid>
+<update_guid_history>eee82f73f86c1310b7a1d1f7e36d6d68:-1465897435</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_fb99a3f30f6c13102d24ece800d1b22a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>true</actions_access><alter_access>true</alter_access><caller_access/><client_scripts_access>true</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><filter_extension/><is_data_interface>false</is_data_interface><is_df_table>false</is_df_table><is_extendable>false</is_extendable><label>Items</label><live_feed_enabled>false</live_feed_enabled><name>x_2322917_school_0_items</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:46</sys_created_on><sys_id>fb99a3f30f6c13102d24ece800d1b22a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>School 0 Items</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_db_object_fb99a3f30f6c13102d24ece800d1b22a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:46</sys_updated_on><update_access>true</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-34017237</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>e0fd39780ff0d7102d24ece800d1b29e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd640470000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>Items</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>c0a9a3f3436c1310a109f0ec27ddce70</update_guid>
+<update_guid_history>c0a9a3f3436c1310a109f0ec27ddce70:-34017237</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_embedded_help_role_6ee82f730f6c13102d24ece800d1b29d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role"><sys_embedded_help_role action="INSERT_OR_UPDATE"><order>10</order><role display_value="x_2322917_school_0.admin" name="x_2322917_school_0.admin">2ae82f730f6c13102d24ece800d1b29b</role><sys_class_name>sys_embedded_help_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:29:41</sys_created_on><sys_id>6ee82f730f6c13102d24ece800d1b29d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2ae82f730f6c13102d24ece800d1b29b</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_embedded_help_role_6ee82f730f6c13102d24ece800d1b29d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:29:41</sys_updated_on></sys_embedded_help_role></record_update>]]></payload>
+<payload_hash>-472038568</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>e0fd39780ff0d7102d24ece800d1b2a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd63fb00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table/>
+<target_name>2ae82f730f6c13102d24ece800d1b29b</target_name>
+<type>Embedded Help Role Priority</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_dda9a7f30f6c13102d24ece800d1b2ef</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Allow delete for records in x_2322917_school_0_items, for users with role x_2322917_school_0.admin.</description><local_or_existing>Existing</local_or_existing><name>x_2322917_school_0_items</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:53</sys_created_on><sys_id>dda9a7f30f6c13102d24ece800d1b2ef</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_2322917_school_0_items</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_security_acl_dda9a7f30f6c13102d24ece800d1b2ef</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:53</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>21396104</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>e0fd3d3c0ff0d7102d24ece800d1b2e2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd641ae0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>x_2322917_school_0_items</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>19a9a7f3086c1310de4e01495c0564f4</update_guid>
+<update_guid_history>19a9a7f3086c1310de4e01495c0564f4:-1777448153</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_62e82f730f6c13102d24ece800d1b27a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>Handles customer orders</description><elevated_privilege>false</elevated_privilege><federated_id>H266GvsvCxFLLcZQaNHKu26koW05ZCWbd8T7QYwaFtg=</federated_id><grantable>true</grantable><includes_roles/><name>x_2322917_school_0.sales</name><scoped_admin>false</scoped_admin><suffix>sales</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:29:40</sys_created_on><sys_id>62e82f730f6c13102d24ece800d1b27a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2322917_school_0.sales</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_user_role_62e82f730f6c13102d24ece800d1b27a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:29:40</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>-1881714845</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>e0fd3d3c0ff0d7102d24ece800d1b2e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd63f810000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table/>
+<target_name>x_2322917_school_0.sales</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>2ae82f73536c13106c867a48cbcf0583</update_guid>
+<update_guid_history>2ae82f73536c13106c867a48cbcf0583:82450320</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_2322917_school_0_items_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_2322917_school_0_items"><active>true</active><array>false</array><attributes>enforce_dot_walk_cross_scope_access=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label/><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element/><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Collection">collection</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_2322917_school_0_items</name><next_element/><primary>false</primary><read_only>false</read_only><read_only_option/><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:46</sys_created_on><sys_id>7b99a3f30f6c13102d24ece800d1b22e</sys_id><sys_name>x_2322917_school_0_items</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_dictionary_x_2322917_school_0_items_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:46</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>2136638278</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>e4fd39780ff0d7102d24ece800d1b29f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd640210000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>Items</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>c0a9a3f3a36c131078b6d8cd147a5754</update_guid>
+<update_guid_history>c0a9a3f3a36c131078b6d8cd147a5754:2136638278</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_action_type_definition_55b0c4b00f7497102d24ece800d1b2a4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition"><sys_hub_action_type_definition action="INSERT_OR_UPDATE"><access>public</access><acls/><action_status/><action_template/><active>true</active><annotation/><attributes>{labelCacheCleanUpExecuted=true}</attributes><authored_on_release_version>30000</authored_on_release_version><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description>EST integration between the Laboratory instance and Personal Developer Instance.</description><flow_priority/><ih_action>false</ih_action><internal_name>lab_451_rest_integration</internal_name><label_cache/><latest_snapshot/><master_snapshot/><master_snapshot_digest/><name>Lab 4.5.1 REST Integration</name><natlang/><outputs/><pre_compiled>false</pre_compiled><state>draft</state><sys_class_name>sys_hub_action_type_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-24 00:09:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>55b0c4b00f7497102d24ece800d1b2a4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Lab 4.5.1 REST Integration</sys_name><sys_overrides/><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_hub_action_type_definition_55b0c4b00f7497102d24ece800d1b2a4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-24 00:09:04</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_definition><sys_translated_text action="delete_multiple" query="documentkey=55b0c4b00f7497102d24ece800d1b2a4"/><sys_variable_value action="delete_multiple" query="document_key=55b0c4b00f7497102d24ece800d1b2a4"/><sys_hub_step_instance action="delete_multiple" query="action=55b0c4b00f7497102d24ece800d1b2a4"/><sys_hub_action_input action="delete_multiple" query="model=55b0c4b00f7497102d24ece800d1b2a4"/><sys_hub_action_output action="delete_multiple" query="model=55b0c4b00f7497102d24ece800d1b2a4"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=55b0c4b00f7497102d24ece800d1b2a4"/><sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=55b0c4b00f7497102d24ece800d1b2a4"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_55b0c4b00f7497102d24ece800d1b2a4"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_55b0c4b00f7497102d24ece800d1b2a4"/><sys_hub_action_plan action="delete_multiple" query="action_id=55b0c4b00f7497102d24ece800d1b2a4"/></record_update>]]></payload>
+<payload_hash>1362633438</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>e4fd39780ff0d7102d24ece800d1b2a4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd6431f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table/>
+<target_name>Lab 4.5.1 REST Integration</target_name>
+<type>Action Type</type>
+<update_domain>global</update_domain>
+<update_guid>d9b0ccb8517497105f3bc90f6b39a691</update_guid>
+<update_guid_history>d9b0ccb8517497105f3bc90f6b39a691:1362633438</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_15a9a7f30f6c13102d24ece800d1b23d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:52</sys_created_on><sys_id>15a9a7f30f6c13102d24ece800d1b23d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2322917_school_0_items.x_2322917_school_0.admin</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_security_acl display_value="x_2322917_school_0_items">4da9a7f30f6c13102d24ece800d1b20e</sys_security_acl><sys_update_name>sys_security_acl_role_15a9a7f30f6c13102d24ece800d1b23d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:52</sys_updated_on><sys_user_role display_value="x_2322917_school_0.admin" name="x_2322917_school_0.admin">2ae82f730f6c13102d24ece800d1b29b</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1990310375</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>e4fd3d3c0ff0d7102d24ece800d1b2e3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd6411a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>x_2322917_school_0_items.x_2322917_school_0.admin</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>95a9a7f3246c13105db806e66b0ec245</update_guid>
+<update_guid_history>95a9a7f3246c13105db806e66b0ec245:1990310375</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>ua_table_licensing_config_c4a9a3f30f6c13102d24ece800d1b250</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_2322917_school_0_items</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:46</sys_created_on><sys_id>c4a9a3f30f6c13102d24ece800d1b250</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2322917_school_0_items</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>ua_table_licensing_config_c4a9a3f30f6c13102d24ece800d1b250</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:46</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+<payload_hash>1454867807</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>e4fd3d3c0ff0d7102d24ece800d1b2e8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd6402f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table/>
+<target_name>x_2322917_school_0_items</target_name>
+<type>Table Subscription Configuration</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_2322917_school_0_items_category_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="category" label="Category" language="en" table="x_2322917_school_0_items"><sys_documentation action="INSERT_OR_UPDATE"><element>category</element><help/><hint/><label>Category</label><language>en</language><name>x_2322917_school_0_items</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 23:24:14</sys_created_on><sys_id>1076b3280f3497102d24ece800d1b202</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Category</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_documentation_x_2322917_school_0_items_category_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 23:24:15</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1328269771</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>e8fd39780ff0d7102d24ece800d1b2a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd641ed0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>Items.Category</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>bc76b328653497109fe0d213293983c6</update_guid>
+<update_guid_history>bc76b328653497109fe0d213293983c6:1328269771,ac76b328ab349710b234640b2d9e5364:578915337</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_34a927f30f6c13102d24ece800d1b2d0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Allow create for records in x_2322917_school_0_items, for users with role x_2322917_school_0.manager.</description><local_or_existing>Existing</local_or_existing><name>x_2322917_school_0_items</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:50</sys_created_on><sys_id>34a927f30f6c13102d24ece800d1b2d0</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_2322917_school_0_items</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_security_acl_34a927f30f6c13102d24ece800d1b2d0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:51</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>794013845</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>e8fd39780ff0d7102d24ece800d1b2a5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd640bd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>x_2322917_school_0_items</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>c9a967f3ee6c131013b1c0cc44632994</update_guid>
+<update_guid_history>c9a967f3ee6c131013b1c0cc44632994:1926220869</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_61a9a7f30f6c13102d24ece800d1b2f9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:53</sys_created_on><sys_id>61a9a7f30f6c13102d24ece800d1b2f9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2322917_school_0_items.x_2322917_school_0.admin</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_security_acl display_value="x_2322917_school_0_items">dda9a7f30f6c13102d24ece800d1b2ef</sys_security_acl><sys_update_name>sys_security_acl_role_61a9a7f30f6c13102d24ece800d1b2f9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:53</sys_updated_on><sys_user_role display_value="x_2322917_school_0.admin" name="x_2322917_school_0.admin">2ae82f730f6c13102d24ece800d1b29b</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-231432149</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>e8fd3d3c0ff0d7102d24ece800d1b2e4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd6419f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>x_2322917_school_0_items.x_2322917_school_0.admin</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>e9a9e7f3656c131066846a0ebb634364</update_guid>
+<update_guid_history>e9a9e7f3656c131066846a0ebb634364:-231432149</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_2322917_school_0_items_quantity_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="quantity" label="Quantity" language="en" table="x_2322917_school_0_items"><sys_documentation action="INSERT_OR_UPDATE"><element>quantity</element><help/><hint/><label>Quantity</label><language>en</language><name>x_2322917_school_0_items</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 23:24:14</sys_created_on><sys_id>d07673280f3497102d24ece800d1b2fc</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Quantity</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_documentation_x_2322917_school_0_items_quantity_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 23:24:15</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-858165544</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>ecfd39780ff0d7102d24ece800d1b2a1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd6420d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>Items.Quantity</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>2476b328d4349710dea7ca07b1006c7a</update_guid>
+<update_guid_history>2476b328d4349710dea7ca07b1006c7a:-858165544,e876b3288c349710d1c11fde4a804861:-773613207</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_4da9a7f30f6c13102d24ece800d1b20e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Allow read for records in x_2322917_school_0_items, for users with role x_2322917_school_0.admin.</description><local_or_existing>Existing</local_or_existing><name>x_2322917_school_0_items</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:51</sys_created_on><sys_id>4da9a7f30f6c13102d24ece800d1b20e</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_2322917_school_0_items</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_update_name>sys_security_acl_4da9a7f30f6c13102d24ece800d1b20e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:52</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1540495901</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>ecfd3d3c0ff0d7102d24ece800d1b2e0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd6415d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>x_2322917_school_0_items</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>85a9a7f3566c131018a406c5afdd9613</update_guid>
+<update_guid_history>85a9a7f3566c131018a406c5afdd9613:2142780177</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_e9a9a7f30f6c13102d24ece800d1b2e4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-21 14:32:53</sys_created_on><sys_id>e9a9a7f30f6c13102d24ece800d1b2e4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2322917_school_0_items.x_2322917_school_0.manager</sys_name><sys_package display_value="School Office Supplies Management" source="x_2322917_school_0">1ee82f730f6c13102d24ece800d1b24b</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">1ee82f730f6c13102d24ece800d1b24b</sys_scope><sys_security_acl display_value="x_2322917_school_0_items">59a9a7f30f6c13102d24ece800d1b2db</sys_security_acl><sys_update_name>sys_security_acl_role_e9a9a7f30f6c13102d24ece800d1b2e4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 14:32:53</sys_updated_on><sys_user_role display_value="x_2322917_school_0.manager" name="x_2322917_school_0.manager">aae82f730f6c13102d24ece800d1b289</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1903555537</payload_hash>
+<remote_update_set display_value="School Office Supplies Management">1cfd39780ff0d7102d24ece800d1b29c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-24 09:16:15</sys_created_on>
+<sys_id>ecfd3d3c0ff0d7102d24ece800d1b2e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a20cd641bb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-24 09:16:15</sys_updated_on>
+<table>x_2322917_school_0_items</table>
+<target_name>x_2322917_school_0_items.x_2322917_school_0.manager</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>ada9e7f3f36c131079c6523a0b093843</update_guid>
+<update_guid_history>ada9e7f3f36c131079c6523a0b093843:1903555537</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
