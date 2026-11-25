@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2026-11-25 10:10:03">
+<item_option_new_set action="INSERT_OR_UPDATE">
+<create_roles/>
+<description/>
+<display_title>false</display_title>
+<internal_name>selected_supplies</internal_name>
+<layout>normal</layout>
+<name/>
+<order>100</order>
+<read_roles/>
+<set_attributes/>
+<sys_class_name>item_option_new_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-25 10:04:36</sys_created_on>
+<sys_id>b482df858330d310ed51ba29feaad300</sys_id>
+<sys_mod_count>6</sys_mod_count>
+<sys_name>Select Supplies</sys_name>
+<sys_package display_value="School Office Supplies Management" source="x_1994805_school_0">3f56874d83bc9310ed51ba29feaad384</sys_package>
+<sys_policy/>
+<sys_scope display_value="School Office Supplies Management">3f56874d83bc9310ed51ba29feaad384</sys_scope>
+<sys_update_name>item_option_new_set_b482df858330d310ed51ba29feaad300</sys_update_name>
+<sys_updated_by>system</sys_updated_by>
+<sys_updated_on>2026-11-25 10:09:44</sys_updated_on>
+<title>Select Supplies</title>
+<type>one_to_many</type>
+<version>6</version>
+<write_roles/>
+</item_option_new_set>
+</unload>

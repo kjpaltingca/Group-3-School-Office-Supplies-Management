@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2026-11-25 10:02:49">
+<sys_script_include action="INSERT_OR_UPDATE">
+<access>public</access>
+<active>true</active>
+<api_name>x_1994805_school_0.SupplyItemAjax</api_name>
+<caller_access/>
+<client_callable>true</client_callable>
+<description/>
+<mobile_callable>false</mobile_callable>
+<name>SupplyItemAjax</name>
+<sandbox_callable>false</sandbox_callable>
+<script><![CDATA[var SupplyItemAjax = Class.create();
+SupplyItemAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getItemPrice: function() {
+        var itemId = this.getParameter('sysparm_item_id');
+        var itemGr = new GlideRecord('x_scope_supply_item');
+        if (itemGr.get(itemId)) {
+            return itemGr.getValue('price');
+        }
+        return '0';
+    },
+    type: 'SupplyItemAjax'
+});]]></script>
+<sys_class_name>sys_script_include</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-25 10:00:52</sys_created_on>
+<sys_id>24fc878983fc9310ed51ba29feaad3c7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name>SupplyItemAjax</sys_name>
+<sys_package display_value="School Office Supplies Management" source="x_1994805_school_0">3f56874d83bc9310ed51ba29feaad384</sys_package>
+<sys_policy>read</sys_policy>
+<sys_scope display_value="School Office Supplies Management">3f56874d83bc9310ed51ba29feaad384</sys_scope>
+<sys_update_name>sys_script_include_24fc878983fc9310ed51ba29feaad3c7</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-25 10:00:52</sys_updated_on>
+</sys_script_include>
+</unload>
