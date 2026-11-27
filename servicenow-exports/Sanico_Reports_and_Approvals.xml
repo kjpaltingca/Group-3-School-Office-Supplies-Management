@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-11-27 13:35:10">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</application>
+<application_name>School Office Supplies Management</application_name>
+<application_scope>x_2260609_school_0</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>My Approvals module, manager reports, current-month orders export, and testing support.</description>
+<inserted/>
+<name>Sanico - Reports and Approvals</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>81764abd83bc53107428c6d6feaad38e</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-27 13:35:09</sys_created_on>
+<sys_id>d2f59ef9833093107428c6d6feaad399</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-27 13:35:09</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</application>
+<category>customer</category>
+<comments/>
+<name>sys_report_529e0a7d83fc53107428c6d6feaad30f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_report"><sys_report action="INSERT_OR_UPDATE"><active>true</active><additional_groupby/><aggregate>SUM</aggregate><aggregation_source>no_override</aggregation_source><allow_data_label_overlap>false</allow_data_label_overlap><apply_alias>false</apply_alias><axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color><axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color><bar_unstack>false</bar_unstack><calendar/><certified>false</certified><chart_background_color/><chart_border_color/><chart_border_radius>0</chart_border_radius><chart_border_width>1</chart_border_width><chart_height>450</chart_height><chart_size>large</chart_size><chart_subtitle/><chart_subtitle_color/><chart_subtitle_size>14</chart_subtitle_size><chart_subtitle_style>normal</chart_subtitle_style><chart_title/><chart_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</chart_title_color><chart_title_size>16</chart_title_size><chart_title_style>normal</chart_title_style><chart_title_x_position>0</chart_title_x_position><chart_title_y_position>0</chart_title_y_position><chart_width>600</chart_width><color display_value="Default Color">de699435d7033100b4964ebfae610331</color><color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette><colors/><column/><compute_percent>aggregate</compute_percent><content/><created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user><custom_chart_size>false</custom_chart_size><custom_chart_title_position>false</custom_chart_title_position><custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config><decimal_precision>2</decimal_precision><description/><direction>minimize</direction><display_column_lines>false</display_column_lines><display_grid>false</display_grid><display_row_lines>false</display_row_lines><donut_width_percent>30</donut_width_percent><end_time/><exp_report_attrs>true</exp_report_attrs><field/><field_list>number,order_for,state,approval,assigned_to,total_amount</field_list><filter/><formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration><from/><funnel_neck_percent>30</funnel_neck_percent><gauge_autoscale>true</gauge_autoscale><group/><import_table/><interval>month</interval><is_published>false</is_published><is_real_time>false</is_real_time><is_scheduled>false</is_scheduled><legend_align_columns>true</legend_align_columns><legend_background_color/><legend_border_color/><legend_border_radius>0</legend_border_radius><legend_border_width>1</legend_border_width><legend_horizontal_alignment>center</legend_horizontal_alignment><legend_items_left_align>false</legend_items_left_align><legend_vertical_alignment>bottom</legend_vertical_alignment><list_ui_view/><location_field/><lower_limit/><macroponent/><map display_value="World">93b8a3a2d7101200bd4a4ebfae61033a</map><map_source/><name>Gross Sales per Month</name><no_bulk_migration>false</no_bulk_migration><orderby_list/><other_threshold>-2</other_threshold><others>true</others><page_hdrftr/><pivot_expanded>true</pivot_expanded><properties/><report_drilldown/><report_source/><requested_by/><required_translations/><roles>x_2260609_school_0.manager</roles><row/><sc_groupby_item_id/><sc_groupby_variable_id/><sc_stackby_item_id/><sc_stackby_variable_id/><score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color><series_name_text/><set_color>one_color</set_color><show_chart_border>false</show_chart_border><show_chart_data_label>false</show_chart_data_label><show_chart_title>report</show_chart_title><show_chart_total>false</show_chart_total><show_data_label_position_middle>false</show_data_label_position_middle><show_empty>false</show_empty><show_geographical_label>false</show_geographical_label><show_legend>true</show_legend><show_legend_border>false</show_legend_border><show_marker>false</show_marker><show_zero>false</show_zero><source_type>table</source_type><start_time/><style_config/><sumfield>total_amount</sumfield><sys_class_name>sys_report</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-27 13:02:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>529e0a7d83fc53107428c6d6feaad30f</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Gross Sales per Month</sys_name><sys_package display_value="School Office Supplies Management" source="x_2260609_school_0">79cba9ba83a8df107154e290ceaad359</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</sys_scope><sys_update_name>sys_report_529e0a7d83fc53107428c6d6feaad30f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-27 13:03:40</sys_updated_on><table>x_2260609_school_0_supply_order</table><title>Gross Sales per Month</title><title_horizontal_alignment>center</title_horizontal_alignment><title_vertical_alignment>top</title_vertical_alignment><to/><trend_field>sys_created_on</trend_field><type>line_bar</type><upper_limit/><use_color_heatmap>false</use_color_heatmap><use_null_in_trend>false</use_null_in_trend><user>GLOBAL</user><x_axis_allow_decimals>true</x_axis_allow_decimals><x_axis_display_grid>false</x_axis_display_grid><x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color><x_axis_grid_dotted>false</x_axis_grid_dotted><x_axis_grid_width>1</x_axis_grid_width><x_axis_label_bold>false</x_axis_label_bold><x_axis_label_color/><x_axis_label_size>11</x_axis_label_size><x_axis_label_tilt>0</x_axis_label_tilt><x_axis_opposite>false</x_axis_opposite><x_axis_title/><x_axis_title_bold>true</x_axis_title_bold><x_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</x_axis_title_color><x_axis_title_size>12</x_axis_title_size><y_axis_allow_decimals>true</y_axis_allow_decimals><y_axis_display_grid>true</y_axis_display_grid><y_axis_from/><y_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</y_axis_grid_color><y_axis_grid_dotted>false</y_axis_grid_dotted><y_axis_grid_width>1</y_axis_grid_width><y_axis_label_bold>false</y_axis_label_bold><y_axis_label_color/><y_axis_label_size>11</y_axis_label_size><y_axis_label_tilt>0</y_axis_label_tilt><y_axis_opposite>false</y_axis_opposite><y_axis_title/><y_axis_title_bold>true</y_axis_title_bold><y_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_title_color><y_axis_title_size>12</y_axis_title_size><y_axis_to/></sys_report></record_update>]]></payload>
+<payload_hash>1024656816</payload_hash>
+<remote_update_set display_value="Sanico - Reports and Approvals">d2f59ef9833093107428c6d6feaad399</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-27 13:35:09</sys_created_on>
+<sys_id>12f59ef9833093107428c6d6feaad39c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a21d1abb6e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-27 13:35:09</sys_updated_on>
+<table>x_2260609_school_0_supply_order</table>
+<target_name>Gross Sales per Month</target_name>
+<type>Report</type>
+<update_domain>global</update_domain>
+<update_guid>55ce0e7dfafc53106611e6d93f27ede9</update_guid>
+<update_guid_history>55ce0e7dfafc53106611e6d93f27ede9:1024656816,d29e0a7d2efc5310c7d27fcffa3f7838:2116159543,9e9e0a7d0ffc5310821fe9947f56a634:1428555429,d29e0a7d4bfc5310573f62f77dd19b19:2116159543</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</application>
+<category>customer</category>
+<comments/>
+<name>sys_report_users_groups_d5db0e7583fc53107428c6d6feaad3ef</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups"><sys_report_users_groups action="INSERT_OR_UPDATE"><group_id/><report_id display_value="">15db0e7583fc53107428c6d6feaad3ee</report_id><sys_class_name>sys_report_users_groups</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-27 12:50:51</sys_created_on><sys_id>d5db0e7583fc53107428c6d6feaad3ef</sys_id><sys_mod_count>0</sys_mod_count><sys_name>15db0e7583fc53107428c6d6feaad3ee</sys_name><sys_package display_value="School Office Supplies Management" source="x_2260609_school_0">79cba9ba83a8df107154e290ceaad359</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</sys_scope><sys_update_name>sys_report_users_groups_d5db0e7583fc53107428c6d6feaad3ef</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-27 12:50:51</sys_updated_on><user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user_id></sys_report_users_groups></record_update>]]></payload>
+<payload_hash>-1930989346</payload_hash>
+<remote_update_set display_value="Sanico - Reports and Approvals">d2f59ef9833093107428c6d6feaad399</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-27 13:35:09</sys_created_on>
+<sys_id>16f59ef9833093107428c6d6feaad39d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a21d0efef00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-27 13:35:09</sys_updated_on>
+<table/>
+<target_name>15db0e7583fc53107428c6d6feaad3ee</target_name>
+<type>Report Users and Groups</type>
+<update_domain>global</update_domain>
+<update_guid>d1db0a3976fc5310d3d32ddaba035e0b</update_guid>
+<update_guid_history>d1db0a3976fc5310d3d32ddaba035e0b:-1930989346</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_eaf60afd83bc53107428c6d6feaad30c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name/><order>100</order><roles>x_2260609_school_0.manager</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-27 12:29:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>eaf60afd83bc53107428c6d6feaad30c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reports</sys_name><sys_overrides/><sys_package display_value="School Office Supplies Management" source="x_2260609_school_0">79cba9ba83a8df107154e290ceaad359</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</sys_scope><sys_update_name>sys_app_application_eaf60afd83bc53107428c6d6feaad30c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-27 12:29:38</sys_updated_on><title>Reports</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>-619295514</payload_hash>
+<remote_update_set display_value="Sanico - Reports and Approvals">d2f59ef9833093107428c6d6feaad399</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-27 13:35:09</sys_created_on>
+<sys_id>1af59ef9833093107428c6d6feaad399</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a21cfb92570000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-27 13:35:09</sys_updated_on>
+<table/>
+<target_name>Reports</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>e2f60afd6ebc531064e8d68fce78f511</update_guid>
+<update_guid_history>e2f60afd6ebc531064e8d68fce78f511:-619295514</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_b4cf8afd83fc53107428c6d6feaad32d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Reports">eaf60afd83bc53107428c6d6feaad30c</application><assessment/><device_type/><filter/><hint/><homepage/><image/><karuna_route/><link_type>REPORT</link_type><map_page/><mobile_title>Sales Recorded per Month</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>300</order><override_menu_roles>false</override_menu_roles><query/><report display_value="Sales Recorded per Month">7b2dcab983fc53107428c6d6feaad323</report><require_confirmation>true</require_confirmation><roles>x_2260609_school_0.manager</roles><route/><screen/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-27 13:08:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b4cf8afd83fc53107428c6d6feaad32d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Sales Recorded per Month</sys_name><sys_overrides/><sys_package display_value="School Office Supplies Management" source="x_2260609_school_0">79cba9ba83a8df107154e290ceaad359</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</sys_scope><sys_update_name>sys_app_module_b4cf8afd83fc53107428c6d6feaad32d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-27 13:08:24</sys_updated_on><timeline_page/><title>Sales Recorded per Month</title><uncancelable>false</uncancelable><ux_list/><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-166505003</payload_hash>
+<remote_update_set display_value="Sanico - Reports and Approvals">d2f59ef9833093107428c6d6feaad399</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-27 13:35:09</sys_created_on>
+<sys_id>1ef59ef9833093107428c6d6feaad39a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a21d1f105f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-27 13:35:09</sys_updated_on>
+<table/>
+<target_name>Sales Recorded per Month</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>66df0efd94fc5310ff3286bf5cd0546c</update_guid>
+<update_guid_history>66df0efd94fc5310ff3286bf5cd0546c:-166505003</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_ffdf0afd83fc53107428c6d6feaad3a4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Reports">eaf60afd83bc53107428c6d6feaad30c</application><assessment/><device_type/><filter/><hint/><homepage/><image/><karuna_route/><link_type>REPORT</link_type><map_page/><mobile_title>Gross Sales per Month</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>400</order><override_menu_roles>false</override_menu_roles><query/><report display_value="Gross Sales per Month">529e0a7d83fc53107428c6d6feaad30f</report><require_confirmation>true</require_confirmation><roles>x_2260609_school_0.manager</roles><route/><screen/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-27 13:08:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ffdf0afd83fc53107428c6d6feaad3a4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Gross Sales per Month</sys_name><sys_overrides/><sys_package display_value="School Office Supplies Management" source="x_2260609_school_0">79cba9ba83a8df107154e290ceaad359</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</sys_scope><sys_update_name>sys_app_module_ffdf0afd83fc53107428c6d6feaad3a4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-27 13:08:50</sys_updated_on><timeline_page/><title>Gross Sales per Month</title><uncancelable>false</uncancelable><ux_list/><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-1719485652</payload_hash>
+<remote_update_set display_value="Sanico - Reports and Approvals">d2f59ef9833093107428c6d6feaad399</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-27 13:35:09</sys_created_on>
+<sys_id>52f59ef9833093107428c6d6feaad39b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a21d1f73620000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-27 13:35:09</sys_updated_on>
+<table/>
+<target_name>Gross Sales per Month</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>b8ffcefdf1fc5310ed8791211ba15db0</update_guid>
+<update_guid_history>b8ffcefdf1fc5310ed8791211ba15db0:-1719485652</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</application>
+<category>customer</category>
+<comments/>
+<name>sys_report_7b2dcab983fc53107428c6d6feaad323</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_report"><sys_report action="INSERT_OR_UPDATE"><active>true</active><additional_groupby/><aggregate>COUNT</aggregate><aggregation_source>no_override</aggregation_source><allow_data_label_overlap>false</allow_data_label_overlap><apply_alias>false</apply_alias><axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color><axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color><bar_unstack>false</bar_unstack><calendar/><certified>false</certified><chart_background_color/><chart_border_color/><chart_border_radius>0</chart_border_radius><chart_border_width>1</chart_border_width><chart_height>450</chart_height><chart_size>large</chart_size><chart_subtitle/><chart_subtitle_color/><chart_subtitle_size>14</chart_subtitle_size><chart_subtitle_style>normal</chart_subtitle_style><chart_title/><chart_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</chart_title_color><chart_title_size>16</chart_title_size><chart_title_style>normal</chart_title_style><chart_title_x_position>0</chart_title_x_position><chart_title_y_position>0</chart_title_y_position><chart_width>600</chart_width><color display_value="Default Color">de699435d7033100b4964ebfae610331</color><color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette><colors/><column/><compute_percent>aggregate</compute_percent><content/><created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user><custom_chart_size>false</custom_chart_size><custom_chart_title_position>false</custom_chart_title_position><custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config><decimal_precision>2</decimal_precision><description/><direction>minimize</direction><display_column_lines>false</display_column_lines><display_grid>false</display_grid><display_row_lines>false</display_row_lines><donut_width_percent>30</donut_width_percent><end_time/><exp_report_attrs>true</exp_report_attrs><field>rpt_created_month</field><field_list>number,order_for,sys_created_on,state,total_amount</field_list><filter table="x_2260609_school_0_supply_order">state=3<item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/></filter><formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration><from/><funnel_neck_percent>30</funnel_neck_percent><gauge_autoscale>true</gauge_autoscale><group/><import_table/><interval>year</interval><is_published>false</is_published><is_real_time>false</is_real_time><is_scheduled>false</is_scheduled><legend_align_columns>true</legend_align_columns><legend_background_color/><legend_border_color/><legend_border_radius>0</legend_border_radius><legend_border_width>1</legend_border_width><legend_horizontal_alignment>center</legend_horizontal_alignment><legend_items_left_align>false</legend_items_left_align><legend_vertical_alignment>bottom</legend_vertical_alignment><list_ui_view/><location_field/><lower_limit/><macroponent/><map display_value="World">93b8a3a2d7101200bd4a4ebfae61033a</map><map_source/><name>Sales Recorded per Month</name><no_bulk_migration>false</no_bulk_migration><orderby_list/><other_threshold>-2</other_threshold><others>true</others><page_hdrftr/><pivot_expanded>true</pivot_expanded><properties/><report_drilldown/><report_source/><requested_by/><required_translations/><roles>x_2260609_school_0.manager</roles><row/><sc_groupby_item_id/><sc_groupby_variable_id/><sc_stackby_item_id/><sc_stackby_variable_id/><score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color><series_name_text/><set_color>one_color</set_color><show_chart_border>false</show_chart_border><show_chart_data_label>false</show_chart_data_label><show_chart_title>report</show_chart_title><show_chart_total>false</show_chart_total><show_data_label_position_middle>false</show_data_label_position_middle><show_empty>false</show_empty><show_geographical_label>false</show_geographical_label><show_legend>true</show_legend><show_legend_border>false</show_legend_border><show_marker>false</show_marker><show_zero>false</show_zero><source_type>table</source_type><start_time/><style_config/><sumfield/><sys_class_name>sys_report</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-27 12:56:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>7b2dcab983fc53107428c6d6feaad323</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Sales Recorded per Month</sys_name><sys_package display_value="School Office Supplies Management" source="x_2260609_school_0">79cba9ba83a8df107154e290ceaad359</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</sys_scope><sys_update_name>sys_report_7b2dcab983fc53107428c6d6feaad323</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-27 13:00:10</sys_updated_on><table>x_2260609_school_0_supply_order</table><title>Sales Recorded per Month</title><title_horizontal_alignment>center</title_horizontal_alignment><title_vertical_alignment>top</title_vertical_alignment><to/><trend_field/><type>list</type><upper_limit/><use_color_heatmap>false</use_color_heatmap><use_null_in_trend>false</use_null_in_trend><user>GLOBAL</user><x_axis_allow_decimals>true</x_axis_allow_decimals><x_axis_display_grid>false</x_axis_display_grid><x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color><x_axis_grid_dotted>false</x_axis_grid_dotted><x_axis_grid_width>1</x_axis_grid_width><x_axis_label_bold>false</x_axis_label_bold><x_axis_label_color/><x_axis_label_size>11</x_axis_label_size><x_axis_label_tilt>0</x_axis_label_tilt><x_axis_opposite>false</x_axis_opposite><x_axis_title/><x_axis_title_bold>true</x_axis_title_bold><x_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</x_axis_title_color><x_axis_title_size>12</x_axis_title_size><y_axis_allow_decimals>true</y_axis_allow_decimals><y_axis_display_grid>true</y_axis_display_grid><y_axis_from/><y_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</y_axis_grid_color><y_axis_grid_dotted>false</y_axis_grid_dotted><y_axis_grid_width>1</y_axis_grid_width><y_axis_label_bold>false</y_axis_label_bold><y_axis_label_color/><y_axis_label_size>11</y_axis_label_size><y_axis_label_tilt>0</y_axis_label_tilt><y_axis_opposite>false</y_axis_opposite><y_axis_title/><y_axis_title_bold>true</y_axis_title_bold><y_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_title_color><y_axis_title_size>12</y_axis_title_size><y_axis_to/></sys_report></record_update>]]></payload>
+<payload_hash>1096181979</payload_hash>
+<remote_update_set display_value="Sanico - Reports and Approvals">d2f59ef9833093107428c6d6feaad399</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-27 13:35:09</sys_created_on>
+<sys_id>56f59ef9833093107428c6d6feaad39c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a21d1786b80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-27 13:35:09</sys_updated_on>
+<table>x_2260609_school_0_supply_order</table>
+<target_name>Sales Recorded per Month</target_name>
+<type>Report</type>
+<update_domain>global</update_domain>
+<update_guid>39fd463dd0fc531076819128370573a5</update_guid>
+<update_guid_history>39fd463dd0fc531076819128370573a5:1096181979,11dd423debfc53105a618feb9747b7a3:30328274,b32d8eb9cffc5310efe4616bc28d1fd9:-470121574,7f2d8eb900fc531006a4666911f0cdd5:390373416,bf2d8eb9cffc53107a5563cc64769cd2:-470121574</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_x_2260609_school_0_supply_order_RPT7b2dcab983fc53107428c6d6feaad323</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_2260609_school_0_supply_order" version="2" view="RPT7b2dcab983fc53107428c6d6feaad323"><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>number</element><list_id display_value="x_2260609_school_0_supply_order" element="NULL" name="x_2260609_school_0_supply_order" parent="NULL" relationship="NULL" sys_domain="global" view="372d8eb983fc53107428c6d6feaad3e8">b32d8eb983fc53107428c6d6feaad3ea</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-27 12:56:45</sys_created_on><sys_id>f32d8eb983fc53107428c6d6feaad3eb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-27 12:56:45</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>order_for</element><list_id display_value="x_2260609_school_0_supply_order" element="NULL" name="x_2260609_school_0_supply_order" parent="NULL" relationship="NULL" sys_domain="global" view="372d8eb983fc53107428c6d6feaad3e8">b32d8eb983fc53107428c6d6feaad3ea</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-27 12:56:45</sys_created_on><sys_id>7b2d8eb983fc53107428c6d6feaad3eb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-27 12:56:45</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_created_on</element><list_id display_value="x_2260609_school_0_supply_order" element="NULL" name="x_2260609_school_0_supply_order" parent="NULL" relationship="NULL" sys_domain="global" view="372d8eb983fc53107428c6d6feaad3e8">b32d8eb983fc53107428c6d6feaad3ea</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-27 12:56:45</sys_created_on><sys_id>ff2d8eb983fc53107428c6d6feaad3eb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-27 12:56:45</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>state</element><list_id display_value="x_2260609_school_0_supply_order" element="NULL" name="x_2260609_school_0_supply_order" parent="NULL" relationship="NULL" sys_domain="global" view="372d8eb983fc53107428c6d6feaad3e8">b32d8eb983fc53107428c6d6feaad3ea</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-27 12:56:45</sys_created_on><sys_id>772d8eb983fc53107428c6d6feaad3ec</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-27 12:56:45</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>total_amount</element><list_id display_value="x_2260609_school_0_supply_order" element="NULL" name="x_2260609_school_0_supply_order" parent="NULL" relationship="NULL" sys_domain="global" view="372d8eb983fc53107428c6d6feaad3e8">b32d8eb983fc53107428c6d6feaad3ea</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-27 12:56:45</sys_created_on><sys_id>fb2d8eb983fc53107428c6d6feaad3ec</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-27 12:56:45</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_2260609_school_0_supply_order</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-27 12:56:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b32d8eb983fc53107428c6d6feaad3ea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2260609_school_0_supply_order</sys_name><sys_package display_value="School Office Supplies Management" source="x_2260609_school_0">79cba9ba83a8df107154e290ceaad359</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</sys_scope><sys_update_name>sys_ui_list_x_2260609_school_0_supply_order_RPT7b2dcab983fc53107428c6d6feaad323</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-27 12:56:45</sys_updated_on><sys_user/><view display_value="Rpt7b2dcab983fc53107428c6d6feaad323" name="RPT7b2dcab983fc53107428c6d6feaad323">372d8eb983fc53107428c6d6feaad3e8</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<payload_hash>-778609486</payload_hash>
+<remote_update_set display_value="Sanico - Reports and Approvals">d2f59ef9833093107428c6d6feaad399</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-27 13:35:09</sys_created_on>
+<sys_id>5af59ef9833093107428c6d6feaad39d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a21d1466080000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-27 13:35:09</sys_updated_on>
+<table>x_2260609_school_0_supply_order</table>
+<target_name>Supply Order</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_guid>372d8eb9b1fc53107949b8afe2cdc8ef</update_guid>
+<update_guid_history>372d8eb9b1fc53107949b8afe2cdc8ef:-778609486</update_guid_history>
+<update_set display_value=""/>
+<view>RPT7b2dcab983fc53107428c6d6feaad323</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_774f427d83fc53107428c6d6feaad326</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Reports">eaf60afd83bc53107428c6d6feaad30c</application><assessment/><device_type/><filter/><hint/><homepage/><image/><karuna_route/><link_type>REPORT</link_type><map_page/><mobile_title>Item Popularity per Month</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>200</order><override_menu_roles>false</override_menu_roles><query/><report display_value="Item Popularity per Month">15db0e7583fc53107428c6d6feaad3ee</report><require_confirmation>true</require_confirmation><roles>x_2260609_school_0.manager</roles><route/><screen/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-27 13:07:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>774f427d83fc53107428c6d6feaad326</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Item Popularity per Month</sys_name><sys_overrides/><sys_package display_value="School Office Supplies Management" source="x_2260609_school_0">79cba9ba83a8df107154e290ceaad359</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</sys_scope><sys_update_name>sys_app_module_774f427d83fc53107428c6d6feaad326</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-27 13:07:46</sys_updated_on><timeline_page/><title>Item Popularity per Month</title><uncancelable>false</uncancelable><ux_list/><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-1120425162</payload_hash>
+<remote_update_set display_value="Sanico - Reports and Approvals">d2f59ef9833093107428c6d6feaad399</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-27 13:35:09</sys_created_on>
+<sys_id>5ef59ef9833093107428c6d6feaad399</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a21d1e7ec20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-27 13:35:09</sys_updated_on>
+<table/>
+<target_name>Item Popularity per Month</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>51bf0afd42fc531082d8b3bce80d9954</update_guid>
+<update_guid_history>51bf0afd42fc531082d8b3bce80d9954:-1120425162</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_7c105a3d83fc53107428c6d6feaad359</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Reports">eaf60afd83bc53107428c6d6feaad30c</application><assessment/><device_type/><filter table="x_2260609_school_0_supply_order">sys_created_onONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="false" value="This month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()"/></filter><hint/><homepage/><image/><karuna_route/><link_type>LIST</link_type><map_page/><mobile_title>Orders for Current Month</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_2260609_school_0_supply_order</name><order>500</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_2260609_school_0.manager</roles><route/><screen/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-27 13:11:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7c105a3d83fc53107428c6d6feaad359</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Orders for Current Month</sys_name><sys_overrides/><sys_package display_value="School Office Supplies Management" source="x_2260609_school_0">79cba9ba83a8df107154e290ceaad359</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</sys_scope><sys_update_name>sys_app_module_7c105a3d83fc53107428c6d6feaad359</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-27 13:11:20</sys_updated_on><timeline_page/><title>Orders for Current Month</title><uncancelable>false</uncancelable><ux_list/><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>220238048</payload_hash>
+<remote_update_set display_value="Sanico - Reports and Approvals">d2f59ef9833093107428c6d6feaad399</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-27 13:35:09</sys_created_on>
+<sys_id>92f59ef9833093107428c6d6feaad39a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a21d21bf4a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-27 13:35:09</sys_updated_on>
+<table>x_2260609_school_0_supply_order</table>
+<target_name>Orders for Current Month</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>6980527130309310ccfc7ea63e748ebb</update_guid>
+<update_guid_history>6980527130309310ccfc7ea63e748ebb:220238048</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_2260609_school_0_supply_order_rpt_created_month</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="rpt_created_month" table="x_2260609_school_0_supply_order"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Created Month</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>rpt_created_month</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition>glidefunction:substring(sys_created_on,'0','7')</function_definition><function_field>true</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>255</max_length><name>x_2260609_school_0_supply_order</name><next_element/><primary>false</primary><read_only>false</read_only><read_only_option/><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-27 12:59:08</sys_created_on><sys_id>76bdceb983fc53107428c6d6feaad394</sys_id><sys_name>Created Month</sys_name><sys_package display_value="School Office Supplies Management" source="x_2260609_school_0">79cba9ba83a8df107154e290ceaad359</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</sys_scope><sys_update_name>sys_dictionary_x_2260609_school_0_supply_order_rpt_created_month</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-27 12:59:08</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier/><virtual>false</virtual><virtual_type/><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>801313231</payload_hash>
+<remote_update_set display_value="Sanico - Reports and Approvals">d2f59ef9833093107428c6d6feaad399</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-27 13:35:09</sys_created_on>
+<sys_id>96f59ef9833093107428c6d6feaad39b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a21d1694910000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-27 13:35:09</sys_updated_on>
+<table>x_2260609_school_0_supply_order</table>
+<target_name>Supply Order.Created Month</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>f2bd8ef9defc531024d218a19bf028bb</update_guid>
+<update_guid_history>f2bd8ef9defc531024d218a19bf028bb:801313231</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</application>
+<category>customer</category>
+<comments/>
+<name>sys_report_users_groups_169e0a7d83fc53107428c6d6feaad310</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups"><sys_report_users_groups action="INSERT_OR_UPDATE"><group_id/><report_id display_value="">529e0a7d83fc53107428c6d6feaad30f</report_id><sys_class_name>sys_report_users_groups</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-27 13:02:55</sys_created_on><sys_id>169e0a7d83fc53107428c6d6feaad310</sys_id><sys_mod_count>0</sys_mod_count><sys_name>529e0a7d83fc53107428c6d6feaad30f</sys_name><sys_package display_value="School Office Supplies Management" source="x_2260609_school_0">79cba9ba83a8df107154e290ceaad359</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</sys_scope><sys_update_name>sys_report_users_groups_169e0a7d83fc53107428c6d6feaad310</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-27 13:02:55</sys_updated_on><user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user_id></sys_report_users_groups></record_update>]]></payload>
+<payload_hash>-1252954034</payload_hash>
+<remote_update_set display_value="Sanico - Reports and Approvals">d2f59ef9833093107428c6d6feaad399</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-27 13:35:09</sys_created_on>
+<sys_id>9af59ef9833093107428c6d6feaad39c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a21d1a0bbe0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-27 13:35:09</sys_updated_on>
+<table/>
+<target_name>529e0a7d83fc53107428c6d6feaad30f</target_name>
+<type>Report Users and Groups</type>
+<update_domain>global</update_domain>
+<update_guid>9e9e0a7d42fc5310d72baa51b294cc12</update_guid>
+<update_guid_history>9e9e0a7d42fc5310d72baa51b294cc12:-1252954034</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_87f68afd83bc53107428c6d6feaad3f8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Reports">eaf60afd83bc53107428c6d6feaad30c</application><assessment/><device_type/><filter table="sysapproval_approver">approverDYNAMIC90d1921e5f510100a9ad2572f2b477fe^state=requested^sysapproval.sys_class_name=x_2260609_school_0_supply_order<item endquery="false" field="approver" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/><item display_value="Requested" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="requested"/><item display_value="Supply Order" endquery="false" field="sysapproval.sys_class_name" goto="false" newquery="false" operator="=" or="false" value="x_2260609_school_0_supply_order"/></filter><hint/><homepage/><image/><karuna_route/><link_type>LIST</link_type><map_page/><mobile_title>My Approvals</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>sysapproval_approver</name><order>100</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_2260609_school_0.manager</roles><route/><screen/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-27 12:35:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>87f68afd83bc53107428c6d6feaad3f8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My Approvals</sys_name><sys_overrides/><sys_package display_value="School Office Supplies Management" source="x_2260609_school_0">79cba9ba83a8df107154e290ceaad359</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</sys_scope><sys_update_name>sys_app_module_87f68afd83bc53107428c6d6feaad3f8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-27 12:35:06</sys_updated_on><timeline_page/><title>My Approvals</title><uncancelable>false</uncancelable><ux_list/><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-51921876</payload_hash>
+<remote_update_set display_value="Sanico - Reports and Approvals">d2f59ef9833093107428c6d6feaad399</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-27 13:35:09</sys_created_on>
+<sys_id>d6f59ef9833093107428c6d6feaad39a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a21d0093920000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-27 13:35:09</sys_updated_on>
+<table>sysapproval_approver</table>
+<target_name>My Approvals</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>fe388e71acfc531060a7dea2e0bd00a2</update_guid>
+<update_guid_history>fe388e71acfc531060a7dea2e0bd00a2:-51921876</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</application>
+<category>customer</category>
+<comments/>
+<name>sys_report_15db0e7583fc53107428c6d6feaad3ee</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_report"><sys_report action="INSERT_OR_UPDATE"><active>true</active><additional_groupby/><aggregate>SUM</aggregate><aggregation_source>no_override</aggregation_source><allow_data_label_overlap>false</allow_data_label_overlap><apply_alias>false</apply_alias><axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color><axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color><bar_unstack>false</bar_unstack><calendar/><certified>false</certified><chart_background_color/><chart_border_color/><chart_border_radius>0</chart_border_radius><chart_border_width>1</chart_border_width><chart_height>450</chart_height><chart_size>large</chart_size><chart_subtitle/><chart_subtitle_color/><chart_subtitle_size>14</chart_subtitle_size><chart_subtitle_style>normal</chart_subtitle_style><chart_title/><chart_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</chart_title_color><chart_title_size>16</chart_title_size><chart_title_style>normal</chart_title_style><chart_title_x_position>0</chart_title_x_position><chart_title_y_position>0</chart_title_y_position><chart_width>600</chart_width><color display_value="Default Color">de699435d7033100b4964ebfae610331</color><color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette><colors/><column/><compute_percent>aggregate</compute_percent><content/><created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user><custom_chart_size>false</custom_chart_size><custom_chart_title_position>false</custom_chart_title_position><custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config><decimal_precision>2</decimal_precision><description/><direction>minimize</direction><display_column_lines>false</display_column_lines><display_grid>false</display_grid><display_row_lines>false</display_row_lines><donut_width_percent>30</donut_width_percent><end_time/><exp_report_attrs>true</exp_report_attrs><field>item</field><field_list>item,order,quantity,subtotal,unit_price</field_list><filter/><formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration><from/><funnel_neck_percent>30</funnel_neck_percent><gauge_autoscale>true</gauge_autoscale><group/><import_table/><interval>month</interval><is_published>false</is_published><is_real_time>false</is_real_time><is_scheduled>false</is_scheduled><legend_align_columns>true</legend_align_columns><legend_background_color/><legend_border_color/><legend_border_radius>0</legend_border_radius><legend_border_width>1</legend_border_width><legend_horizontal_alignment>center</legend_horizontal_alignment><legend_items_left_align>false</legend_items_left_align><legend_vertical_alignment>bottom</legend_vertical_alignment><list_ui_view/><location_field/><lower_limit/><macroponent/><map display_value="World">93b8a3a2d7101200bd4a4ebfae61033a</map><map_source/><name>Item Popularity per Month</name><no_bulk_migration>false</no_bulk_migration><orderby_list/><other_threshold>-2</other_threshold><others>true</others><page_hdrftr/><pivot_expanded>true</pivot_expanded><properties/><report_drilldown/><report_source/><requested_by/><required_translations/><roles>x_2260609_school_0.manager</roles><row/><sc_groupby_item_id/><sc_groupby_variable_id/><sc_stackby_item_id/><sc_stackby_variable_id/><score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color><series_name_text/><set_color>color_palette</set_color><show_chart_border>false</show_chart_border><show_chart_data_label>false</show_chart_data_label><show_chart_title>report</show_chart_title><show_chart_total>false</show_chart_total><show_data_label_position_middle>false</show_data_label_position_middle><show_empty>false</show_empty><show_geographical_label>false</show_geographical_label><show_legend>true</show_legend><show_legend_border>false</show_legend_border><show_marker>false</show_marker><show_zero>false</show_zero><source_type>table</source_type><start_time/><style_config/><sumfield>quantity</sumfield><sys_class_name>sys_report</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-27 12:50:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>15db0e7583fc53107428c6d6feaad3ee</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Item Popularity per Month</sys_name><sys_package display_value="School Office Supplies Management" source="x_2260609_school_0">79cba9ba83a8df107154e290ceaad359</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</sys_scope><sys_update_name>sys_report_15db0e7583fc53107428c6d6feaad3ee</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-27 12:51:32</sys_updated_on><table>x_2260609_school_0_order_line_item</table><title>Item Popularity per Month</title><title_horizontal_alignment>center</title_horizontal_alignment><title_vertical_alignment>top</title_vertical_alignment><to/><trend_field>sys_created_on</trend_field><type>line_bar</type><upper_limit/><use_color_heatmap>false</use_color_heatmap><use_null_in_trend>false</use_null_in_trend><user>GLOBAL</user><x_axis_allow_decimals>true</x_axis_allow_decimals><x_axis_display_grid>false</x_axis_display_grid><x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color><x_axis_grid_dotted>false</x_axis_grid_dotted><x_axis_grid_width>1</x_axis_grid_width><x_axis_label_bold>false</x_axis_label_bold><x_axis_label_color/><x_axis_label_size>11</x_axis_label_size><x_axis_label_tilt>0</x_axis_label_tilt><x_axis_opposite>false</x_axis_opposite><x_axis_title/><x_axis_title_bold>true</x_axis_title_bold><x_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</x_axis_title_color><x_axis_title_size>12</x_axis_title_size><y_axis_allow_decimals>true</y_axis_allow_decimals><y_axis_display_grid>true</y_axis_display_grid><y_axis_from/><y_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</y_axis_grid_color><y_axis_grid_dotted>false</y_axis_grid_dotted><y_axis_grid_width>1</y_axis_grid_width><y_axis_label_bold>false</y_axis_label_bold><y_axis_label_color/><y_axis_label_size>11</y_axis_label_size><y_axis_label_tilt>0</y_axis_label_tilt><y_axis_opposite>false</y_axis_opposite><y_axis_title/><y_axis_title_bold>true</y_axis_title_bold><y_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_title_color><y_axis_title_size>12</y_axis_title_size><y_axis_to/></sys_report></record_update>]]></payload>
+<payload_hash>-1298254793</payload_hash>
+<remote_update_set display_value="Sanico - Reports and Approvals">d2f59ef9833093107428c6d6feaad399</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-27 13:35:09</sys_created_on>
+<sys_id>daf59ef9833093107428c6d6feaad39b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a21d0f9e8a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-27 13:35:09</sys_updated_on>
+<table>x_2260609_school_0_order_line_item</table>
+<target_name>Item Popularity per Month</target_name>
+<type>Report</type>
+<update_domain>global</update_domain>
+<update_guid>13fb0e3929fc5310271ef57f1b5366ec</update_guid>
+<update_guid_history>13fb0e3929fc5310271ef57f1b5366ec:-1298254793,2ddb0a396cfc531048c2d7fb610c4743:-415230548,a9db0a3955fc531027c1cc346e7a573e:577812534,eddb0a39c8fc531071d715e802cf262d:-415230548</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</application>
+<category>customer</category>
+<comments/>
+<name>sys_report_users_groups_3f2dcab983fc53107428c6d6feaad324</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups"><sys_report_users_groups action="INSERT_OR_UPDATE"><group_id/><report_id display_value="">7b2dcab983fc53107428c6d6feaad323</report_id><sys_class_name>sys_report_users_groups</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-27 12:56:45</sys_created_on><sys_id>3f2dcab983fc53107428c6d6feaad324</sys_id><sys_mod_count>0</sys_mod_count><sys_name>7b2dcab983fc53107428c6d6feaad323</sys_name><sys_package display_value="School Office Supplies Management" source="x_2260609_school_0">79cba9ba83a8df107154e290ceaad359</sys_package><sys_policy/><sys_scope display_value="School Office Supplies Management">79cba9ba83a8df107154e290ceaad359</sys_scope><sys_update_name>sys_report_users_groups_3f2dcab983fc53107428c6d6feaad324</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-27 12:56:45</sys_updated_on><user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user_id></sys_report_users_groups></record_update>]]></payload>
+<payload_hash>-207913694</payload_hash>
+<remote_update_set display_value="Sanico - Reports and Approvals">d2f59ef9833093107428c6d6feaad399</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-27 13:35:09</sys_created_on>
+<sys_id>def59ef9833093107428c6d6feaad39c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a21d1463b90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-27 13:35:09</sys_updated_on>
+<table/>
+<target_name>7b2dcab983fc53107428c6d6feaad323</target_name>
+<type>Report Users and Groups</type>
+<update_domain>global</update_domain>
+<update_guid>3b2dcab99efc53108ac7bc7821048127</update_guid>
+<update_guid_history>3b2dcab99efc53108ac7bc7821048127:-207913694</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
